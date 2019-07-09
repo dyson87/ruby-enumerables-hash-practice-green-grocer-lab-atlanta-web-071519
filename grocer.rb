@@ -33,6 +33,9 @@ def apply_coupons(cart, coupons)
   consolidate_coupon_array << item_hash_consolidated
 end
 consolidate_coupon_array.each do |coupon|
+  if 
+    
+  end
 
 def apply_clearance(cart)
   # code here
