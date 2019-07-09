@@ -50,6 +50,8 @@ consolidate_coupon_array.each do |coupon|
   end
 end
 end
+cart
+end
 
 def apply_clearance(cart)
   # code here
