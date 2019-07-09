@@ -35,7 +35,8 @@ end
 consolidate_coupon_array.each do |coupon|
   if cart.key?(coupon[:item]) == false
   else
-    
+    coupon_name = coupon[:item]
+    coupon_number = coupon[:num]
   end
 
 def apply_clearance(cart)
