@@ -33,7 +33,8 @@ def apply_coupons(cart, coupons)
   consolidate_coupon_array << item_hash_consolidated
 end
 consolidate_coupon_array.each do |coupon|
-  if 
+  if cart.key?(coupon[:item]) == false
+  else
     
   end
 
