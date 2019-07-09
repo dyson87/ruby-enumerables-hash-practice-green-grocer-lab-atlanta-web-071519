@@ -15,6 +15,8 @@ end
 
 def apply_coupons(cart, coupons)
   if coupons.size <= 0
+    
+  end
 end
 
 def apply_clearance(cart)
