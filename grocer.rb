@@ -49,7 +49,6 @@ consolidate_coupon_array.each do |coupon|
     end
   end
 end
-end
   cart
 end
 
