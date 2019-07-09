@@ -18,6 +18,9 @@ def apply_coupons(cart, coupons)
     return cart
   else
     consolidate_coupon_hash = {}
+    more_consolidated_hash = {}
+    consolidate_coupon_array = []
+    
   end
 end
 
