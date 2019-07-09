@@ -40,7 +40,7 @@ consolidate_coupon_array.each do |coupon|
     coupon_cost = coupon[:cost]
     item_clearance = cart[coupon_name][:clearance]
     cart["#{coupon_name} W/COUPON"] = {price: coupon_cost, clearance: item_clearance, count: coupon_number}
-    item_in_cart_after_coupons = cart[coupon_name][:count]
+    item_in_cart_after_coupons = cart[coupon_name][:count] - coupon_number
   end
 
 def apply_clearance(cart)
