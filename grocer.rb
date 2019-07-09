@@ -17,7 +17,7 @@ def apply_coupons(cart, coupons)
   if coupons.size <= 0
     return cart
   else
-    consolidate_hash
+    consolidate_coupon_hash = {}
   end
 end
 
