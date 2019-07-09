@@ -23,6 +23,8 @@ def apply_coupons(cart, coupons)
     coupons.each do |coupon_hash|
       coupon_name = coupon_hash[:item]
       if consolidate_coupon_hash.key?(coupon_name) == false
+        
+      end
     end
   end
 end
