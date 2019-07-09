@@ -48,6 +48,8 @@ consolidate_coupon_array.each do |coupon|
     elsecart["#{coupon_name} W/COUPON"][:count] = 1
     end
   end
+end
+end
 
 def apply_clearance(cart)
   # code here
