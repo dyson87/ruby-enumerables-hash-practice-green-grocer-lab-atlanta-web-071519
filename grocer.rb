@@ -30,7 +30,7 @@ def apply_coupons(cart, coupons)
     end
   end
   consolidate_coupon_hash.each do |item_name, item_hash_consolidated|
-    
+  
 end
 
 def apply_clearance(cart)
