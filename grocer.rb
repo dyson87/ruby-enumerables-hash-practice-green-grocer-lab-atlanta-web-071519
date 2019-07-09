@@ -21,7 +21,7 @@ def apply_coupons(cart, coupons)
     more_consolidated_hash = {}
     consolidate_coupon_array = []
     coupons.each do |coupon_hash|
-      
+      coupon_name = coupon_hash[:item]
     end
   end
 end
