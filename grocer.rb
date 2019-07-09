@@ -44,7 +44,7 @@ consolidate_coupon_array.each do |coupon|
     cart[coupon_name][:count] = item_in_cart_after_coupons
     if cart[coupon_name][:count] = <= 0
       cart.delete(coupon_name)
-      cart["#{coupon_name} W/COUPON"]
+      cart["#{coupon_name} W/COUPON"][:count] = 1
     end
   end
 
