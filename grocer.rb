@@ -24,6 +24,8 @@ def apply_coupons(cart, coupons)
       coupon_name = coupon_hash[:item]
       if consolidate_coupon_hash.key?(coupon_name) == false
         consolidate_coupon_hash[coupon_name] = coupon_hash
+      else
+        consolidate_coupon_hash[coupon_name] = 
       end
     end
   end
